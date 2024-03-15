@@ -1,0 +1,15 @@
+{
+    "name": "conconovaloff/xsolla-zero-game",
+    "autoload": {
+        "psr-4": {
+            "Conconovaloff\\XsollaZeroGame\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Constantin Conovaloff",
+            "email": "constantin@conovaloff.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  xsolla_zero_game:
+    container_name: xsolla_zero_game
+    build:
+      context: build
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "6969:8080"
+    stop_grace_period: 0s
+    volumes:
+      - ../:/app/xsolla-zero-game
+      - ./build/extra-php.ini:/usr/local/etc/php/conf.d/extra-php.ini
+    environment:
+      PHP_IDE_CONFIG: serverName=xsolla-zero-game
