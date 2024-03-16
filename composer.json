@@ -1,8 +1,8 @@
 {
-    "name": "conconovaloff/xsolla-zero-game",
+    "name": "conconovaloff/xsolla-example",
     "autoload": {
         "psr-4": {
-            "Conconovaloff\\XsollaZeroGame\\": "src/"
+            "Conconovaloff\\XsollaExample\\": "src/"
         }
     },
     "authors": [
@@ -11,5 +11,8 @@
             "email": "constantin@conovaloff.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "*",
+        "xsolla/xsolla-sdk-php": "*"
+    }
 }
